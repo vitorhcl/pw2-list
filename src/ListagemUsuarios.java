@@ -34,6 +34,8 @@ public class ListagemUsuarios {
 		
 		List<Usuario> lista = List.of(u1, u2, u3, u4, u5);
 		
+		System.out.println("Tamanho da lista: " + lista.size());
+		
 		lista.forEach(e -> {
 			System.out.println("Nome: " + e.getNome());
 			System.out.println("ID: " + e.getId());
